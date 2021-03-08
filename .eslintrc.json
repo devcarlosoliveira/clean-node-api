@@ -1,0 +1,15 @@
+{
+    "env": {
+    },
+    "extends": [
+        "standard-with-typescript"
+    ],
+    "parser": "",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+    ],
+    "rules": {
+    }
+}
