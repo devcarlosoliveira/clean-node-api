@@ -1,0 +1,21 @@
+//settings.json - customs settings about vscode
+{
+    // Format a file on save. A formatter must be available, the file must not be saved after delay, and the editor must not be shutting down.
+    "editor.formatOnSave": true,
+
+    // Code action kinds to be run on save.
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
+    },
+
+    // Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty.
+    "editor.rulers": [80]
+
+    // Defines a default formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter.
+    //  - null: None
+    //  - esbenp.prettier-vscode: Code formatter using prettier
+    //  - vscode.typescript-language-features: Provides rich language support for JavaScript and TypeScript.
+    //"editor.defaultFormatter": "esbenp.prettier-vscode",
+    //"editor.defaultFormatter": "vscode.typescript-language-features",
+}
